@@ -1,0 +1,16 @@
+{
+  "name": "s3-image-compression",
+  "version": "1.0.0",
+  "description": "Create compressed versions of existing AWS S3 images",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.900.0",
+    "dotenv": "^8.5.0",
+    "sharp": "^0.28.1"
+  }
+}
